@@ -1,23 +1,40 @@
-.counter-container{
-    text-align: center;
+body{
     font-family: Arial, Helvetica, sans-serif;
 }
-.counter-display{
-    font-size: 90px;
-    margin-top: 0;
-    margin-bottom: 50px;
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.counter-button{
-    background-color: rgb(33, 240, 240);
-    color: black;
-    width: 150px;
-    height: 50px;
+h1{
+    margin: 50px;
+    font-size: 50px;
+}
+.color-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid grey;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    transition: 0.25 ease;
+}
+.color-display p{
+    color: rgb(18, 16, 16);
+    font-size: 35px;
+    text-align: center;
+}
+label{
+    font-size: 15px;
     font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    margin: 0 5px;
+    margin-bottom: 10px ;
 }
-.counter-button:hover{
-    cursor: pointer;
-    background-color:rgb(9, 118, 118); ;
+input[type="color"]{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(93, 9, 9);
 }
