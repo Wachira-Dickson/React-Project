@@ -1,69 +1,26 @@
 body{
-    background-color: hsla(0, 11%, 2%, 0.89);
-}
-.to-do-list{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 100px;
-}
-h1{
-    font-size: 50px;
-    color: hsl(0, 0%, 98%);
-}
-button{
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 20px;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-.add-button{
-    background-color: hsl(120, 95%, 37%);
-}
-.add-button:hover{
-    background-color:  hsl(120, 95%, 61%);
-}
-.delete-button{
-    background-color: hsl(0, 97%, 34%);
-}
-.delete-button:hover{
-    background-color:   hsl(0, 97%, 44%);
-}
-.move-button{
-    background-color: hsl(325, 100%, 29%);
-}
-.move-button:hover{
-    background-color:   hsl(325, 100%, 39%);
-}
-input[type="text"]{
-    font-size: 17px;
-    padding: 10px;
-    border: 2px solid hsla(0, 0%, 34%, 0.523);
-    border-radius: 5px;
-    color: hsla(0, 1%, 28%, 0.509);
-}
-ol{
-    padding: 0;
-}
-li{
-    font-size: 18px;
-    font-weight: bold;
-    padding: 15px;
-    background-color: hsla(0, 0%, 97%, 0.872);
-    margin-bottom: 10px;
-    border: 3px solid hsla(0, 1%, 22%, 0.507);
-    border-radius: 5px;
+    background-image: url(assets/cristina-glebova-FbNoihuPJNs-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
     display: flex;
+    justify-content: center;
+    min-height: 100vh;
     align-items: center;
 }
-.text{
-    flex: 1;
+.clock-container{
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    padding: 10px 0;
 }
-.delete-button, .move-button{
-    padding: 8px 12px;
-    font-size: 22px;
-    margin-left: 10px;
+.clock{
+    color: rgb(222, 1, 1);
+    font-size: 85px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.758);
 }
