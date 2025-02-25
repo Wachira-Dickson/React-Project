@@ -1,12 +1,12 @@
+import ComponentA from './ComponentA.jsx';
 
-import Counter from './Counter.jsx';
+import React from 'react';
 
-function App() {
-  return(
-    <>
-    <Counter/>
-    </>  
+function App(){
+
+    return(
+    <ComponentA/>
     );
-}
 
+}
 export default App
